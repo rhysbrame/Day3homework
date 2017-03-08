@@ -14,3 +14,6 @@ def find_item(array, item)
   end
 end
 
+def get_first_key(teachers_wallets)
+  return teachers_wallets.keys[0]
+end
